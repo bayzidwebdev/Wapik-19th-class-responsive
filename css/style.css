@@ -1,0 +1,777 @@
+/* 
+==============================
+Global CSS
+==============================
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+hr,
+.btn,
+span,
+ul,
+li,
+br{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* 
+==============================
+Global CSS
+==============================
+*/
+
+/* 
+==============================
+text-color
+==============================
+*/
+.t-c-g{
+  color: #6fb048 !important;
+}
+.t-c-gr{
+  color: #83a7a5;
+}
+.t-c-gb{
+  color: #0f5f5c;
+}
+.t-c-ff{
+  color: #fff !important;
+}
+.tt-c{
+  text-transform: capitalize;
+}
+.tt-u{
+  text-transform: uppercase;
+}
+/* 
+==============================
+text-color
+==============================
+*/
+
+
+/* 
+==============================
+font-size
+==============================
+*/
+.fs-13{
+  font-size: 13px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-15{
+  font-size: 15px  ;
+}
+.fs-16{
+  font-size: 16px;
+}
+.fs-18{
+  font-size: 18px;
+}
+.fs-22{
+  font-size: 22px;
+}
+.fs-28{
+  font-size: 28px;
+}
+.fs-32{
+  font-size: 32px !important;
+}
+.fs-38{
+  font-size: 38px;
+}
+.fs-60{
+  font-size: 60px;
+}
+
+
+.f-r-300{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.f-r-400{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.f-r-500{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.f-m-500{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.f-m-600{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+/* 
+==============================
+font-size
+==============================
+*/
+
+/* 
+==============================
+backgorund-color
+==============================
+*/
+.bg-c-ff{
+  background: #eef1ec;
+}
+.bg-c-gb{
+  background: #83a7a5;
+}
+.bg-c-gr{
+  background: #eef1ec;
+}
+/* 
+==============================
+backgorund-color
+==============================
+*/
+
+/* 
+==============================
+reusable-components
+==============================
+*/
+.center-heading{
+text-align: center;
+padding-top: 95px;
+}
+.center-heading h1{
+font-size: 32px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+text-transform: capitalize;
+color: #0f5f5c;
+position: relative;
+}
+.need-img h1::before{
+position: absolute;
+content: "";
+width: 0px;
+height: 2px;
+background: #6fb048;
+bottom: -13px;
+left: 50%;
+transform: translateX(-50%);
+transition: 0.4s all ease-in-out;
+}
+.center-heading p{
+color: #83a7a5;
+width: 40%;
+margin: auto;
+margin-top: 26px;
+}
+.center-heading h1::before{
+position: absolute;
+content: "";
+width: 0px;
+height: 2px;
+background: #6fb048;
+bottom: -13px;
+left: 50%;
+transform: translateX(-50%);
+transition: 0.4s all ease-in-out;
+}
+.tr-4{
+transition: 0.4s all ease-in-out;
+}
+          /* hover  */
+
+.feature:hover .center-heading h1::before{
+  width: 65px;
+}
+.tamplate:hover .center-heading h1::before{
+  width: 65px;
+}
+.pricing:hover .center-heading h1::before{
+  width: 65px;
+}
+.need-help:hover .need-img h1::before{
+  width: 65px;
+}
+.include:hover .center-heading h1::before{
+  width: 65px;
+}
+/* 
+==============================
+reusable-components
+==============================
+*/
+
+
+
+
+/* ===================================== Main- css Start here ======================================= */
+
+
+
+/* 
+==============================
+header Part CSS start
+==============================
+*/
+header{
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(41,99,101,0.7) 30%), url(../images/banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  max-width: 100%;
+  
+}
+.nav-head{
+  padding: 5px 0;
+}
+.navbar span{
+  
+width: 3px;
+  
+height: 20px;
+  
+background: #557576;
+  
+margin-left: 25px;
+}
+.nav-head hr{
+  color: #557576;
+  height: 3px;}
+.get-stard-btn{
+  background: #697f7f;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  padding:8px 15px;
+}
+.get-stard-btn:hover{
+  background: #6fb048;
+}
+.main-menu ul{
+  text-align: center;
+}
+.main-menu ul li{
+  margin-right: 30px;
+}
+.main-menu ul{
+  display: flex;
+  align-items: center;
+}
+.main-menu ul li a{
+  position: relative;
+  display: inline-block;
+  padding: 0 !important;
+}
+.main-menu ul li a::after{
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  background: #6fb048;
+  transition: transform 0.4s linear;
+  transform-origin: right bottom;
+  transform: scaleX(0);
+}
+.main-menu ul li a:hover::after{
+  transform: scaleX(1);
+  transform-origin: left bottom;
+}
+/* banner  */
+
+.ban{
+  align-items: center;
+  min-height: 65vh;
+}
+.learn-more-btn{
+  background: #6fb048;
+  padding: 10px 25px;
+  border: 2px solid #6fb048;
+  transition: 0.4s all ease-in-out;
+}
+.learn-more-btn:hover{
+  border: 2px solid #6fb048;
+  background: transparent;
+}
+.call:hover{
+  color: #6fb048;
+}
+.magic{
+
+}
+.rac{
+  position: relative;
+  
+width: 120px;
+  
+height: 120px;
+  
+margin: auto;
+
+}
+.rac i{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 110px;
+  color: #6fb048;
+  animation: rotates 5s linear infinite;
+}
+.rac1{
+position: relative;
+  
+width: 80px;
+  
+height: 80px;
+  
+margin: auto;
+margin-top: -10px;
+margin-left: 30px;
+}
+.rac1 i{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 95px;
+  color: #83a7a5;
+  animation: rotates1 5s linear infinite;
+  animation-delay: .5s;
+}
+.rac2{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin-left: -40px;
+  margin-top: -25px;
+}
+.rac2 i{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 110px;
+  color: #6fb048;
+  animation: rotates 5s linear infinite;
+}
+.rac3{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  /* margin-left: 110px; */
+  /* margin-top: -95px; */
+}
+.rac3 i{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 110px;
+  color: #6fb048;
+  animation: rotates 5s linear infinite;
+  margin-top: -100px;
+  margin-left: 92px;
+}
+@keyframes rotates{
+  100%{
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+}
+@keyframes rotates1{
+  0%{
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+}
+/* 
+==============================
+header Part CSS end
+==============================
+*/
+
+
+/* 
+==============================
+feature Part CSS start
+==============================
+*/
+.feature-text{
+  margin-bottom: 150px;
+  padding: 20px;
+  border-radius: 8px 0 0 8px;
+  margin-top: 45px;
+  border: 2px solid #e2e2e200;
+}
+.feature-text:hover{
+  border: 2px solid #e2e2e2;
+  box-shadow: 0px 0px 20px #00000042;
+}
+.feature-text2{
+  margin-bottom: 150px;
+  padding: 20px;
+  margin-top: 45px;
+  border: 2px solid #e2e2e200;
+}
+.feature-text2:hover{
+   border: 2px solid #e2e2e2;
+   box-shadow: 0px 0px 20px #00000042;
+}
+.feature-text3{
+  margin-bottom: 150px;
+  padding: 20px;
+  border-radius: 0 8px 8px 0;
+  margin-top: 45px;
+  border: 2px solid #e2e2e200;
+}
+.feature-text3:hover{
+   border: 2px solid #e2e2e2;
+   box-shadow: 0px 0px 20px #00000042;
+}
+.feature-line-top{
+
+width: 5px;
+
+position: relative;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+bottom: 0;
+}
+.feature-line-bottom{
+  width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+.line-1{
+
+height: 0px;
+
+background: #e2e2e2;
+
+width: 5px;
+
+left: 50%;
+
+transform: translateX(-50%);
+
+bottom: 0;
+}
+.line-2{
+  height: 5px;
+
+  background: #e2e2e2;
+  
+  width: 0px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  bottom: 0;
+}
+.f-b{
+  padding-bottom: 130px;
+}
+.feature-bottom:hover .line-1{
+height: 100px;
+}
+.feature-bottom:hover .line-2{
+  width: 150px;
+}
+/* 
+==============================
+feature Part CSS end
+==============================
+*/
+
+
+/* 
+==============================
+tamplate Part CSS start
+==============================
+*/
+
+/* 
+==============================
+tamplate Part CSS end
+==============================
+*/
+
+
+/* 
+==============================
+woman  Part CSS start
+==============================
+*/
+.woman{
+
+}
+.woman-p{
+  padding: 140px 0;
+}
+.woman-img{
+
+}
+.woman-img img{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+/* 
+==============================
+woman  Part CSS end
+==============================
+*/
+
+
+/* 
+==============================
+built Part CSS start
+==============================
+*/
+.built{
+
+}
+.b-u{
+  padding: 60px 0;
+}
+/* 
+==============================
+built Part CSS end
+==============================
+*/
+
+
+/* 
+==============================
+pricing Part CSS start
+==============================
+*/
+.pricing{
+
+}
+.price-plan{
+
+}
+.pp{
+  border: 2px solid #83a7a5
+}
+.price-border1{
+
+}
+.price-border2{
+  border-left: 2px solid #83a7a5;
+  border-right: 2px solid #83a7a5;
+  }
+  .price-border3{
+    
+    }
+.buy-btn{
+  background: #83a7a5;
+  padding: 0 15px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  margin-bottom: 30px;
+}
+.price-plan:hover h5{
+color: #6fb048;
+}
+.price-plan:hover .buy-btn{
+  background: #6fb048;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 54%);
+}
+/* 
+==============================
+pricing Part CSS end
+==============================
+*/
+
+
+/* 
+==============================
+ need help Part CSS start
+==============================
+*/
+.need-img p{
+  
+width: 55%;
+  
+margin: auto;
+}
+.need-img h1{
+  position: relative;
+  margin-bottom: 26px;
+}
+/* 
+==============================
+need help Part CSS end
+==============================
+*/
+
+
+/* 
+==============================
+download Part CSS start
+==============================
+*/
+.download{
+  background-image: url(../images/download-banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.dd{
+  padding: 70px 0;
+}
+.down-btn{
+  text-align: right;
+}
+.down-btn a{
+  background: #6fb048;
+  padding: 5px 20px;
+  letter-spacing: 1px;
+  border: 2px solid #6fb048;
+}
+.down-btn a:hover{
+  border: 2px solid #6fb048;
+  background: transparent;
+  color: #6fb048 !important;
+}
+/* 
+==============================
+download Part CSS end
+==============================
+*/
+
+
+/* 
+==============================
+footer Part CSS start
+==============================
+*/
+footer{
+
+}
+.right-f-form form{
+  width: 240px;
+  position: relative;
+}
+.right-f-form form input{
+
+}
+.right-f-form form button{
+  border: 0;
+  background: transparent;
+}
+.right-f-form form input[type="email"]{
+  background: #eef1ec;
+  padding: 10px 15px;
+  color: #0f5f5c;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  width: 240px;
+  border-radius: 5px;
+  border: 2px solid #eef1ec;
+  transition: 0.25s;
+}
+.right-f-form form input[type="email"]::placeholder{
+  color: #0f5f5c;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+.right-f-form form button[type="submit"]{
+
+position: absolute;
+
+right: 10px;
+
+top: 50%;
+
+transform: translateY(-50%);
+}
+.right-f-form form button i{
+  color: #6fb048;
+  font-size: 18px;
+}
+.right-f-form form input[type="email"]:focus{
+
+border: 2px solid #0f5f5c;
+
+border-radius: 5px;
+
+box-shadow: 0px 0px 10px #0f5f5c3f;
+}
+.right-f-form form input[type="email"]:focus-visible{
+  
+outline: none;
+}
+
+
+/* footer-bottom  */
+.f-bottom {
+  padding: 28px 0;
+}
+.fb-icon a i{
+  
+width: 30px;
+  
+height: 30px;
+  
+border-radius: 50%;
+  
+text-align: center;
+  
+line-height: 30px;
+  
+box-shadow: 3px 5px 5px 0px rgb(0 0 0 / 34%);
+}
+.tw-bg{
+  background: #55acee;
+}
+.fb-bg{
+background: #3b5998;
+}
+.in-bg{
+  background: #3f729b;
+}
+.li-bg{
+  background: #ea4c89;
+}
+.pi-bg{
+  background: #333333;
+}
+/* 
+==============================
+footer Part CSS end
+==============================
+*/
+

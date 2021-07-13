@@ -1,0 +1,172 @@
+@media (min-width:0px) and (max-width:991px){
+    .woman-img img {
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+    }
+    .main-menu ul li{
+        margin-right: 0px;
+        margin: 10px 0;
+      }
+}
+@media (min-width:0px) and (max-width:767px){
+    
+    .magic-crash{
+        display: none;
+    }
+    .banner p{
+        
+margin: 25px 0;
+    }
+    .feature-text2 {
+        margin-bottom: 0px;
+    }
+    .feature-text3 {
+        margin-bottom: 0px;
+    }
+    .feature-text {
+        margin-bottom: 0px;
+    }
+    .center-heading p {
+        width: 90%;
+    }
+    .feature-text3 {
+        margin-top: 0px;
+    }
+    .fs-16 {
+        font-size: 14px;
+    }
+    .tamplate{
+        padding-bottom: 60px;
+    }
+    .hand-img{
+        margin-bottom: 25px;
+    }
+    .woman-img img {
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+    }
+    .woman{
+        text-align: center;
+    }
+    .woman-p p{
+        margin-bottom: 15px;
+    }
+    .woman-p{
+        padding: 100px 0;
+    }
+    .map-img{
+        margin-top: 20px;
+    }
+    .price-border2{
+      border-top: 2px solid #83a7a5;
+      border-bottom: 2px solid #83a7a5;
+      border-left: 2px solid transparent;
+      border-right: 2px solid transparent;
+      }
+      .down-btn {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .right-f-form form {
+        margin-left: auto;
+        width: 50%;
+    }
+    .right-f-form{
+        
+width: 72%;
+        
+margin-left: auto;
+    }
+    .footer-right{
+        
+margin-top: 30px;
+    }
+    .right-f{
+    width: 46%;
+    }
+    .right-f-form form button[type="submit"] {
+        position: absolute;
+        right: -85px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .right-f-form form{
+        margin-left: 0px;
+        width: 50%;
+    }
+    .right-f-form form input[type="email"] {
+        width: 220px;
+    }
+}
+@media (min-width:0px) and (max-width:575px){
+    .right-f{
+        width: 43%;
+        }
+        .right-f-form form button[type="submit"] {
+            position: absolute;
+            right: -73px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .right-f-form form{
+            margin-left: 0px;
+            width: 50%;
+        }
+        .right-f-form form input[type="email"] {
+            width: 200px;
+        }
+}
+@media (min-width:0px) and (max-width:425px){
+    .right-f-form form button[type="submit"] {
+        position: absolute;
+        right: -73px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .right-f-form form{
+        margin-left: 0px;
+        width: 50%;
+    }
+    .right-f-form form input[type="email"] {
+        width: 190px;
+    }
+}
+@media (min-width:321px) and (max-width:375px){
+    .right-f-form form button[type="submit"] {
+        position: absolute;
+        right: -73px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .right-f-form form{
+        margin-left: 0px;
+        width: 50%;
+    }
+    .right-f-form form input[type="email"] {
+        width: 180px;
+    }
+}
+@media (min-width:0px) and (max-width:320px){
+    .fb-icon a i {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    .right-f-form form button[type="submit"] {
+        position: absolute;
+        right: -73px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .right-f-form form{
+        margin-left: 0px;
+        width: 50%;
+    }
+    .right-f-form form input[type="email"] {
+        width: 160px;
+    }
+}
+
